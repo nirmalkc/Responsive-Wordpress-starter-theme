@@ -1,9 +1,8 @@
 # Responsive Wordpress Starter Theme
 
-<div style="background-color:#FFFFE0"> **Note:** In order to use this starter theme, you must know how to use [Bourbon](http://bourbon.io/) mixins and [Neat](http://neat.bourbon.io/) grids. Neat is a semantic grid framework built on top of Sass and Bourbon. It is simple enough to get you up and running in minutes, and powerful enough to handle any responsive layout you can dream of.</div>
-
-
 This is a Responsive Wordpress starter theme built with underscores.me, [bourbon](http://bourbon.io/) (mixins) and [neat](http://neat.bourbon.io/)(grids)
+
+> **Note:** In order to use this starter theme, you must know how to use [Bourbon](http://bourbon.io/) mixins and [Neat](http://neat.bourbon.io/) grids. Neat is a semantic grid framework built on top of Sass and Bourbon. It is simple enough to get you up and running in minutes, and powerful enough to handle any responsive layout you can dream of.
 
 
 ## Steps to download, install and configure

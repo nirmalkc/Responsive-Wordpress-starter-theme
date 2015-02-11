@@ -9,7 +9,7 @@ This is a Responsive Wordpress starter theme built with underscores.me, [bourbon
 	git clone git://github.com/nirmalkc/Responsive-Wordpress-starter-theme
 	```
 	> Note: You must have git installed in your machine.
-	> After cloning this repository, do not forget to delete the readme.txt files from the `/mytheme` folder.
+	> After cloning this repository, do not forget to delete the `readme.txt` file from the `/mytheme` folder.
 
 2. Download the underscores theme with sassify option (advanced view) from [underscores.me](http://underscores.me/). 
 Extract the downloaded `ZIP` file to `/mytheme` folder.
@@ -45,11 +45,11 @@ Extract the downloaded `ZIP` file to `/mytheme` folder.
 	@import "vendors/neat"
 	```
 
-7. Change "mytheme" folder name to whichever name you would prefer. If you do so, please change the destination path in the Gruntfile.js appropriately.
+7. Change `mytheme` folder name to whichever name you would prefer. If you do so, please change the destination path in the `Gruntfile.js` appropriately.
 
-8. Open "package.json" file and change the name `Responsive Wordpress Theme` to your project name and change the description `Starter theme` to your project description.
+8. Open `package.json` file and change the name `Responsive Wordpress Theme` to your project name and change the description `Starter theme` to your project description.
 
-9. Run the command "npm install", this will download all the required node modules to the root.
+9. Run the command `npm install`, this will download all the required node modules to the root.
 
 ## Deploy
 

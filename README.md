@@ -4,11 +4,11 @@ This is a Responsive Wordpress starter theme built with underscores.me, [bourbon
 ## Steps to install and setup
 
 1. Download the underscores theme with sassify option (advanced view) from [underscores.me](http://underscores.me/). 
-Extract the downloaded folder to "mytheme" folder.
+Extract the downloaded folder to `\mytheme` folder.
 
-2. Move the "sass" folder to "src" folder which is one level above.
+2. Move the "sass" folder to `\src` folder which is one level above.
 
-3. Inside the "sass" folder, create a new folder called "vendors". Go inside the '/vendors' folder and run the following commands.
+3. Inside the `\sass` folder, create a new folder called "vendors". Go inside the `/vendors` folder and run the following commands.
 
 	If you are not installed [bourbon](http://bourbon.io/) and [neat](http://neat.bourbon.io/) in your computer before, do the following
 

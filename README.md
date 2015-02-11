@@ -6,9 +6,9 @@ This is a Responsive Wordpress starter theme built with underscores.me, [bourbon
 1. Close this repository to your local machine with the below command.
 	> Note: You must have git installed in your machine.
 
-```bash
-git clone git://github.com/nirmalkc/Responsive-Wordpress-starter-theme
-```
+	```bash
+	git clone git://github.com/nirmalkc/Responsive-Wordpress-starter-theme
+	```
 
 2. Download the underscores theme with sassify option (advanced view) from [underscores.me](http://underscores.me/). 
 Extract the downloaded `ZIP` file to `/mytheme` folder.

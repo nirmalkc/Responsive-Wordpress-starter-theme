@@ -59,7 +59,7 @@ It is quite simple to deploy all the compiled files to your wordpress theme fold
 
 Just copy the `mytheme` folder to your wordpress theme directory `/wp-content/themes`.
 
-	> You can also change `mytheme` folder name to whichever name you would prefer. If you do so, please change the destination path in the `Gruntfile.js` appropriately.
+> You can also change `mytheme` folder name to whichever name you would prefer. If you do so, please change the destination path in the `Gruntfile.js` appropriately.
 	
 ## Additional notes
 

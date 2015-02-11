@@ -15,7 +15,7 @@ This is a Responsive Wordpress starter theme built with underscores.me, [bourbon
 2. Download the underscores theme with sassify option (advanced view) from [underscores.me](http://underscores.me/). 
 Extract the downloaded `ZIP` file to `/mytheme` folder.
 
-3. Move the "sass" folder to `/src` folder, which is one level above.
+3. Move the `sass` folder to `/src` folder, which is one level above.
 
 4. Go to the `/sass` folder, create a new folder called `vendors`. Go inside the `/vendors` folder and run the following commands to install [bourbon](http://bourbon.io/) and [neat](http://neat.bourbon.io/).
 
@@ -42,19 +42,34 @@ Extract the downloaded `ZIP` file to `/mytheme` folder.
 	/*--------------------------------------------------------------
 	Vendors
 	--------------------------------------------------------------*/
-	@import "vendors/bourbon"
-	@import "vendors/neat"
+	@import "vendors/bourbon/bourbon"
+	@import "vendors/neat/bourbon"
 	```
+	> You can change the theme details like name, theme url, author, author url, description, version etc by changing the values of the comments mentioned in the beginning of the `style.scss` file.
 
-7. Change `mytheme` folder name to whichever name you would prefer. If you do so, please change the destination path in the `Gruntfile.js` appropriately.
+7. Open `package.json` file and change the name `ResponsiveWordpressTheme` to your `project` name and change the description `Starter theme` to your `project description`.
+ 
+8. Run the command `npm install`, this will install all the required node modules to run the grunt tasks.
 
-8. Open `package.json` file and change the name `Responsive Wordpress Theme` to your project name and change the description `Starter theme` to your project description.
-
-9. Run the command `npm install`, this will download all the required node modules to the root.
-
+9. Reponsive wordpress starter theme is ready now.
 
 ## Deploy
 
-It is quite simple to deploy all the compiled files to your wordpress theme folder. Just copy the "mytheme" folder to your wordpress "theme" directory.
+It is quite simple to deploy all the compiled files to your wordpress theme folder. 
+
+Just copy the `mytheme` folder to your wordpress theme directory `/wp-content/themes`.
+
+	> You can also change `mytheme` folder name to whichever name you would prefer. If you do so, please change the destination path in the `Gruntfile.js` appropriately.
+	
+## Additional notes
+
+In order to use this starter theme, you must know how to use [Bourbon](http://bourbon.io/) mixins and [Neat](http://neat.bourbon.io/) grids. Neat is a semantic grid framework built on top of Sass and Bourbon. It is simple enough to get you up and running in minutes, and powerful enough to handle any responsive layout you can dream of.
+
+
+
+
+
+
+
 
 

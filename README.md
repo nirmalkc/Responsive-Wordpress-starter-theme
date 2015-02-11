@@ -48,6 +48,8 @@ Extract the downloaded `ZIP` file to `/mytheme` folder.
 	> You can change the theme details like name, theme url, author, author url, description, version etc by changing the values of the comments mentioned in the beginning of the `style.scss` file.
 
 7. Open `package.json` file and change the name `ResponsiveWordpressTheme` to your `project` name and change the description `Starter theme` to your `project description`.
+
+	> Note: Project name cannot have whitespace character.
  
 8. Run the command `npm install`, this will install all the required node modules to run the grunt tasks.
 

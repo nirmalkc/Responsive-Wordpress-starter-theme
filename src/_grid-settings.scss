@@ -1,0 +1,19 @@
+@import "neat-helpers";
+
+// Change the grid settings
+// Use this as a template for any new column and gutter specs
+$column:51px;
+$gutter:22px;
+$grid-columns: 16;
+$max-width: em(1088);
+
+// Define your breakpoints
+$tablet: new-breakpoint(max-width 768px 8);
+$minipad: new-breakpoint(max-width 640px 6);
+$mobile: new-breakpoint(max-width 480px 4);
+
+
+$visual-grid: false;
+$visual-grid-color: red;
+$visual-grid-index: front;
+$visual-grid-opacity: .1;

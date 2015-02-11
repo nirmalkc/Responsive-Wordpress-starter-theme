@@ -1,5 +1,6 @@
-# Responsive-Wordpress-starter-theme
+# Responsive Wordpress Starter Theme
 This is a Responsive Wordpress starter theme built with underscores.me, [bourbon](http://bourbon.io/) (mixins) and [neat](http://neat.bourbon.io/)(grids)
+
 
 ## Steps to download, install and configure
 
@@ -50,6 +51,7 @@ Extract the downloaded `ZIP` file to `/mytheme` folder.
 8. Open `package.json` file and change the name `Responsive Wordpress Theme` to your project name and change the description `Starter theme` to your project description.
 
 9. Run the command `npm install`, this will download all the required node modules to the root.
+
 
 ## Deploy
 

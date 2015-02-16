@@ -46,7 +46,7 @@ Extract the downloaded `ZIP` file to `/mytheme` folder.
 	Vendors
 	--------------------------------------------------------------*/
 	@import "vendors/bourbon/bourbon"
-	@import "vendors/neat/bourbon"
+	@import "vendors/neat/neat"
 	```
 	> You can change the theme details like name, theme url, author, author url, description, version etc by changing the values of the comments mentioned in the beginning of the `style.scss` file.
 
